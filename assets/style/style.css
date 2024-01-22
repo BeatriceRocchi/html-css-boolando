@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 50px auto;
 }
 
@@ -27,17 +27,53 @@ main .container {
 }
 
 .card {
-  max-width: 32%;
+  max-width: 33%;
+}
+
+.top-card {
+  position: relative;
+  height: 500px;
 }
 
 .top-card img {
   object-fit: cover;
   object-position: center;
   max-width: 100%;
+  max-height: 100%;
 }
 
 .hover-img {
   display: none;
+}
+
+.wish {
+  background-color: white;
+  font-size: 1.8rem;
+  padding: 5px 12px;
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+
+.tag {
+  position: absolute;
+  bottom: 8%;
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: white;
+}
+
+.tag .discount,
+.sustainability {
+  padding: 5px 12px;
+}
+
+.tag .discount {
+  background-color: #ff0000;
+}
+
+.tag .sustainability {
+  background-color: green;
 }
 
 .bottom-card {
@@ -60,11 +96,11 @@ main .container {
 }
 
 /* EFFECTS */
-.top-card:hover .hover-img {
+.card:hover .hover-img {
   display: block;
 }
 
-.top-card:hover .default-img {
+.card:hover .default-img {
   display: none;
 }
 
