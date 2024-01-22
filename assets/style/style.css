@@ -46,17 +46,17 @@ header .container2 {
   height: 100%;
 }
 
-.menu {
+header .menu {
   display: flex;
   justify-content: space-between;
 }
 
-.menu li {
+header .menu li {
   margin-right: 10px;
   font-weight: bold;
 }
 
-.icons i {
+header .icons i {
   margin-left: 8px;
 }
 
@@ -152,8 +152,38 @@ main .container {
   display: none;
 }
 
+.wish:hover {
+  color: #ff0000;
+}
+
 /* FOOTER */
 footer {
   background-color: #1a1a1a;
-  height: 50px;
+  padding: 20px 0;
+  font-size: 0.8rem;
+}
+
+footer .container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  color: white;
+}
+
+footer .menu {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8px;
+}
+
+.menu li a {
+  margin-right: 10px;
+  font-size: 0.6rem;
+}
+
+footer .icons i {
+  margin-right: 6px;
+  font-size: 1rem;
+  padding-top: 8px;
 }
