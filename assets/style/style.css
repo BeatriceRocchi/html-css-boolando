@@ -19,12 +19,14 @@ a {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1100px;
+  width: 80%;
   margin: 50px auto;
 }
 
 .container2 {
-  max-width: 1200px;
+  max-width: 1100px;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -37,6 +39,7 @@ header {
   position: fixed;
   width: 100%;
   z-index: 100;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
 }
 
 header .container2 {
@@ -48,7 +51,6 @@ header .container2 {
 
 header .menu {
   display: flex;
-  justify-content: space-between;
 }
 
 header .menu li {
@@ -161,23 +163,22 @@ footer {
   background-color: #1a1a1a;
   padding: 20px 0;
   font-size: 0.8rem;
+  color: white;
 }
 
 footer .container2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100%;
-  color: white;
 }
 
-footer .menu {
+footer .references {
   display: flex;
   justify-content: space-between;
   padding-top: 8px;
 }
 
-.menu li a {
+footer .references li a {
   margin-right: 10px;
   font-size: 0.6rem;
 }
